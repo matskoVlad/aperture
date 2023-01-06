@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  background-color: #181818;
+}
+
+header .container {
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 26px;
+}
+
+header .container img {
+  margin-left: 152px;
+  margin-top: 20px;
+}
+
+header .container nav {
+  margin-top: 20px;
+  margin-right: 9.8%;
+}
+
+header .container nav a {
+  text-decoration: none;
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+header .container nav button {
+  background: #FFFFFF;
+  border-radius: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.main {
+  background: #181818;
+  background: -webkit-gradient(linear, left top, left bottom, from(#181818), to(black));
+  background: linear-gradient(180deg, #181818 0%, black 100%);
+}
+
+.main .container {
+  max-width: 1440px;
+  padding-bottom: 46px;
+  background: url(images/photos_for_landscape/blockMain.png) no-repeat 10% 10%;
+}
+
+.main .container .infoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .infoBlock h3 {
+  margin-top: 31.8%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  letter-spacing: 2px;
+}
+
+.main .container .infoBlock h1 {
+  max-width: 100%;
+  font-size: 54px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-top: 0.15%;
+}
+
+.main .container .infoBlock p {
+  max-width: 41%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-top: 1.3%;
+  text-align: center;
+}
+
+.main .container .InformationIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 0.9%;
+  margin-right: 2%;
+}
+
+.main .container .InformationIcons .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .container .InformationIcons .data img {
+  margin-right: 6px;
+}
+
+.main .container .InformationIcons .data p {
+  margin-right: 16px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+.weDo {
+  background-color: black;
+}
+
+.weDo .container {
+  max-width: 1168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 6.2%;
+}
+
+.weDo .container h2 {
+  margin-top: 9%;
+  font-size: 40px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.weDo .container p {
+  margin-top: 1.6%;
+  font-size: 23px;
+  line-height: 30px;
+  color: #C0C0C0;
+}
+
+.weDo .container .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  row-gap: 1%;
+  -webkit-column-gap: 1.4%;
+          column-gap: 1.4%;
+  margin-top: 4%;
+}
+
+.weDo .container .cards .card {
+  position: relative;
+}
+
+.weDo .container .cards .card h3 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 72%;
+  margin-left: 5%;
+}
+
+.weDo .container .cards .card p {
+  margin-top: 1%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-left: 5%;
+  max-width: 86%;
+  margin-bottom: 13%;
+}
+
+.weDo .container .cards .card button {
+  margin-top: 1%;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #C0C0C0;
+  padding: 11px 17px;
+  border-radius: 5px;
+  border: #C0C0C0 solid 2px;
+  margin-left: 5%;
+  position: absolute;
+  top: 87%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.weDo .container .cards .card button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: #C0C0C0;
+  color: #000000;
+}
+
+#card1 {
+  background-image: url(images/weDo/IMAGE1.png);
+}
+
+#card2 {
+  background-image: url(images/weDo/IMAGE2.png);
+}
+
+#card3 {
+  background-image: url(images/weDo/IMAGE3.png);
+}
+
+#card4 {
+  background-image: url(images/weDo/IMAGE4.png);
+}
+
+.landscape {
+  background-color: black;
+}
+
+.landscape .container {
+  max-width: 1440px;
+  height: 600px;
+}
+
+.landscape .container .containerCover .presentationInfo h3 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 18.1%;
+  margin-left: 75%;
+}
+
+.landscape .container .containerCover .presentationInfo p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin: 0 0 14.2% 75%;
+  max-width: 21%;
+}
+
+.landscape .container .InformationIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 0.9%;
+  margin-right: 2%;
+}
+
+.landscape .container .InformationIcons .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.landscape .container .InformationIcons .data img {
+  margin-right: 6px;
+}
+
+.landscape .container .InformationIcons .data p {
+  margin-right: 16px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+#landscape1 {
+  background-image: url(images/photos_for_landscape/IMAGE1.png);
+  background-repeat: no-repeat;
+}
+
+#landscape2 {
+  background-image: url(images/photos_for_landscape/IMAGE2.png);
+  background-repeat: no-repeat;
+}
+
+#landscape3 {
+  background-image: url(images/photos_for_landscape/IMAGE3.png);
+  background-repeat: no-repeat;
+}
+
+.weUse {
+  background-color: black;
+}
+
+.weUse .container {
+  max-width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.weUse .container .tools {
+  padding-bottom: 153px;
+}
+
+.weUse .container .tools h3 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-top: 173px;
+  margin-left: 14%;
+}
+
+.weUse .container .tools h2 {
+  margin-top: 6px;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-left: 14%;
+}
+
+.weUse .container .tools p {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-left: 14%;
+  max-width: 70%;
+}
+
+.weUse .container .tools button {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #C0C0C0;
+  padding: 11px 17px;
+  border-radius: 5px;
+  border: #C0C0C0 solid 2px;
+  margin-left: 14%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.weUse .container .tools button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: #C0C0C0;
+  color: #000000;
+}
+
+.weUse .container .decor {
+  background-image: url(images/tools/IMAGE.png);
+}
+
+.weUse .container .decor .InformationIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 67.4%;
+  margin-right: 3.8%;
+}
+
+.weUse .container .decor .InformationIcons .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.weUse .container .decor .InformationIcons .data img {
+  margin-right: 6px;
+}
+
+.weUse .container .decor .InformationIcons .data p {
+  margin-right: 16px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+.clients {
+  background-color: black;
+}
+
+.clients .container {
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 7%;
+}
+
+.clients .container h2 {
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 8%;
+}
+
+.clients .container p {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 1%;
+}
+
+.clients .container .companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1076px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5.8%;
+}
+
+.clients .container .companies :not(:last-child) {
+  margin-right: 109px;
+}
+
+.linkBlock {
+  background-color: black;
+}
+
+.linkBlock .container {
+  max-width: 610px;
+  padding-top: 113px;
+  padding-bottom: 108px;
+}
+
+.linkBlock .container h2 {
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.linkBlock .container h3 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 15px;
+}
+
+.linkBlock .container button {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #C0C0C0;
+  padding: 11px 17px;
+  border-radius: 5px;
+  border: #C0C0C0 solid 2px;
+  margin-left: 39%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.linkBlock .container button:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: #C0C0C0;
+  color: #000000;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .container {
+  max-width: 1168px;
+}
+
+footer .container .cover {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 57.5% 20.5% 22%;
+      grid-template-columns: 57.5% 20.5% 22%;
+  padding-top: 4.9%;
+}
+
+footer .container .cover .footerInformation p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-top: 2%;
+}
+
+footer .container .cover li {
+  list-style-type: none;
+  margin-left: 1%;
+  margin-bottom: 4px;
+}
+
+footer .container .cover li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+footer .container .cover li span {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+footer .container .polosa {
+  margin-top: 4%;
+  max-width: 1200px;
+  border: #C0C0C0 solid 1px;
+}
+
+footer .container .footerFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+}
+
+footer .container .footerFooter p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+footer .container .footerFooter .webs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2%;
+}
+
+footer .container .footerFooter .webs img {
+  margin-left: 12px;
+}
+/*# sourceMappingURL=style.css.map */
